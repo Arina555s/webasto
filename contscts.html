@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220706101903">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221230164943">
 	<!-- <link rel="shortcut icon" href="#"> -->
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,7 +68,7 @@
 						<div class="rightside-menu ">
 							<div class="rightside-menu__content">
 								<div class="rightside-menu__box"></div>
-								<a href="#" class="rightside-menu__logo">
+								<a href="home.html" class="rightside-menu__logo">
 									<picture><source srcset="img/rightsite/logo.big.webp" type="image/webp"><img src="img/rightsite/logo.big.png" alt="logoBig"></picture>
 								</a>
 								<h4 class="rightside-menu__title _title">Furniture for life</h4>
@@ -148,11 +148,11 @@
 					</div>
 					<form data-message="subscribe" data-test action="#" class="contact__form">
 
-						<input autocomplete="off" type="text" name="form[]" data-value="Your name" class="contact__info-subs ">
+						<input autocomplete="off" type="text" name="form[]" placeholder="Your name" class="contact__info-subs ">
 
-						<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" data-value="Your e-mail" class="contact__info-subs _req _email">
+						<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Your e-mail" class="contact__info-subs _req _email">
 
-						<textarea class="contact__form-area" name="sms" id="#" data-value="Your message"></textarea>
+						<textarea class="contact__form-area" name="sms" id="#" placeholder="Your message"></textarea>
 
 						<button type="submit" class="footer__info-button ">Send</button>
 					</form>
@@ -160,7 +160,7 @@
 			</section>
 
 			<div class="collaction">
-				<a class="collaction__item" href="#">
+				<a class="collaction__item" data-watch href="#">
 					<div class="collaction__img"><picture><source srcset="img/gallery/placeholder.webp" type="image/webp"><img src="img/gallery/placeholder.png" alt="#" class=""></picture></div>
 
 					<div class="collaction__info">
@@ -169,7 +169,7 @@
 					</div>
 				</a>
 
-				<a class="collaction__item" href="#">
+				<a class="collaction__item" data-watch href="#">
 					<div class="collaction__img"><picture><source srcset="img/gallery/container-1.webp" type="image/webp"><img src="img/gallery/container-1.png" alt="#" class=""></picture></div>
 
 					<div class="collaction__info">
@@ -177,7 +177,7 @@
 						<p class="collaction__info-text">Living room furntiture | Chair</p>
 					</div>
 				</a>
-				<a class="collaction__item" href="#">
+				<a class="collaction__item" data-watch href="#">
 					<div class="collaction__img"> <picture><source srcset="img/gallery/container-2.webp" type="image/webp"><img src="img/gallery/container-2.png" alt="#" class=""></picture></div>
 
 					<div class="collaction__info">
@@ -185,7 +185,7 @@
 						<p class="collaction__info-text">Living room furntiture | Chair</p>
 					</div>
 				</a>
-				<a class="collaction__item" href="#">
+				<a class="collaction__item" data-watch href="#">
 					<div class="collaction__img"><picture><source srcset="img/gallery/container.webp" type="image/webp"><img src="img/gallery/container.png" alt="#" class=""></picture></div>
 
 					<div class="collaction__info">
@@ -193,7 +193,7 @@
 						<p class="collaction__info-text">Living room furntiture | Chair</p>
 					</div>
 				</a>
-				<a class="collaction__item" href="#">
+				<a class="collaction__item" data-watch href="#">
 					<div class="collaction__img"><picture><source srcset="img/gallery/container-1.webp" type="image/webp"><img src="img/gallery/container-1.png" alt="#" class=""></picture></div>
 
 					<div class="collaction__info">
@@ -221,7 +221,7 @@
 
 									<form data-message="subscribe" data-test action="#" class="footer__form">
 
-										<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Subscribe by email" class="footer__info-subs _req _email">
+										<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" data-value="Subscribe by email" class="footer__info-subs _req _email">
 
 										<button type="submit" class="footer__info-button ">Send</button>
 									</form>
@@ -278,7 +278,7 @@
 		</div>
 	</div>
 
-	<script src="js/app.min.js?_v=20220706101903"></script>
+	<script src="js/app.min.js?_v=20221230164943"></script>
 </body>
 
 </html>
